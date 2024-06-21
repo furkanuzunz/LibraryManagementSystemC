@@ -109,6 +109,7 @@ void update_books(int *number_books)
 
 void delete_books(int *number_books)
 {
+    https://www.geeksforgeeks.org/delete-element-from-array-of-structs-in-c/ I learned this subject from here
     int ISBNdelete;
     char delete_name[75];
     char delete_writer[75];
@@ -162,6 +163,8 @@ void listbooks_file()
         printf("\n\nthere aren't any books here");
     }
     
+
+    https://www.geeksforgeeks.org/basics-file-handling-c/ 
 }
 
 
