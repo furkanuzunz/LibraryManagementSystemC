@@ -139,8 +139,11 @@ void delete_books(int *number_books)
         fileBooks = fopen("libraryLists.txt", "w");
         for (i = 0; i < *number_books; i++)
         {
+
             fprintf(fileBooks, "%s,%s,%d\n", kutuphane[i].name, kutuphane[i].writer, kutuphane[i].ISBN);
+            
         }
+
         fclose(fileBooks);
 }
 
