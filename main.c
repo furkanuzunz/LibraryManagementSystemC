@@ -4,7 +4,7 @@
 #include <math.h>
 
 int number_books = 0;
-// int MAX_BOOKS = 100;
+
 
 struct book_info
 {
@@ -222,9 +222,9 @@ int main()
     FILE *fileBooks;
 
     // add_books(kutuphane, &number_books); // ya da &kutuphane[0] ile adresi gönder.
-    // list_books(&number_books);
-    // update_books(&number_books);
-    // delete_books(&number_books);
+     /*list_books(&number_books);
+     update_books(&number_books);
+    delete_books(&number_books);*/
     menu_library(&number_books);
     return 0;
 }
